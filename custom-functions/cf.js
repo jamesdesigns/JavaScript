@@ -1,8 +1,10 @@
 // Function Definition
 function calculateBill() {
   // This is the function body
-  console.log('Running Calculate Bill!!');
+  const total = 100 * 1.13;
+  return total;
 }
 
 // Function Call or **Run**
-calculateBill();
+const myTotalBill = calculateBill();
+console.log(`Your total bill is: $${myTotalBill}`);
